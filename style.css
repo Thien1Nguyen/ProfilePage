@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* utli classes */
+/* Imgine sizes Start */
+.userCircle {
+    border:  groove grey;
+    border-radius: 50%;
+    height: inherit;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.pin {
+    width: 20px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.gear {
+    width: 20px;
+}
+.miniUser{
+    width: 50px;
+    
+}
+
+
+/* Navbar Start */
+.navBar{
+    display:flex;
+    width: auto;
+    background-color: black;
+    color: azure;
+    align-items: center;
+}
+h1{
+    margin-left:100px;
+    margin-right:50px;
+}
+.navLink{
+    width: 400px;
+    justify-content: space-around;
+}
+
+.signOut{
+    color: white;
+    background-color: rgb(80, 80, 255);
+    border-radius: 5px;
+    margin-left: 100px;
+    padding: 10px;
+    float: right;
+}
+
+
+/* EverythingBox Start */
+.everythingBox{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.col1{
+    flex:2;
+    margin: 50px;
+}
+.col2{
+    flex:1;
+    margin:50px;
+}
+/* EverythingBox End*/
+
+/* Profilecard Start */
+
+.profileCard{
+    border: 3px solid grey;
+    border-radius: 5px;
+    justify-items: center;
+    background-color: azure;
+    margin-bottom: 50px;
+}
+
+.topBanner {
+    height: 100px;
+    background-color: rgb(12, 7, 73);
+}
+
+.userName {
+    margin-left: 30px;
+    font-size: 40px;
+}
+.infoBox{
+    margin-top:60px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.title {
+    margin-left: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 600px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+li {
+    margin: 2px;
+    padding: 3px;
+    border-right: 2px solid black;
+}
+
+.edit{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+/* Profile Card End */
+
+/* Education Start */
+.education{
+    border: 3px solid grey;
+    border-radius: 5px;
+    background-color: aliceblue;
+    
+    
+}
+.eduBanner{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-size: 30px;
+    padding:20px;
+    
+}
+.bannerText{
+    font-size: 30px;
+}
+
+
+.eduText{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#eduText-Grey{
+    color: grey;
+}
+/* Education End */
+
+/* Connection Request Start */
+.conRequest{
+    border: 3px solid grey;
+    margin-bottom: 50px;
+}
+
+.conRequestBanner{
+    display: flex;
+    width: inherit;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 50px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.conRequestInfo{
+margin-bottom: 50px;
+
+}
+.friend div{
+    margin: 2px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+
+}
+.accept{
+    border-color: goldenrod;
+    background-color: rgb(18, 77, 0);
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 5px 5px black;
+
+}
+.reject{
+    border-color: black;
+    background-color: rgb(170, 0, 0);
+    color: pink;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 5px 5px black;
+}
+/* Connection Request End */
+
+/* Your Connections Start */
+.yourCon{
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+.friendCount{
+    height: 10px;
+    width: 40px;
+    padding: 5px;
+    align-items: center;
+    background-color: grey;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+.yourConBanner{
+    display: flex;
+    width: inherit;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 50px;
+    align-items: center;
+    padding: 5px;
+}
+.youConInfo{
+    align-items: center;
+}
+
+/* Your Connections End */
