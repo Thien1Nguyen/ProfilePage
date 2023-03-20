@@ -7,9 +7,10 @@
 }
 
 /* utli classes */
-/* Imgine sizes Start */
+
+/* Imgine control */
 .userCircle {
-    border:  groove grey;
+    border: groove grey;
     border-radius: 50%;
     height: inherit;
     margin-left: 30px;
@@ -25,84 +26,89 @@
 .gear {
     width: 20px;
 }
-.miniUser{
+
+.miniUser {
     width: 50px;
-    
+
 }
 
 
-/* Navbar Start */
-.navBar{
-    display:flex;
+/* Navbar */
+.navBar {
+    display: flex;
     width: auto;
     background-color: black;
     color: azure;
     align-items: center;
     gap: 3px;
 }
-h1{
-    margin-left:100px;
-    margin-right:50px;
+
+h1 {
+    margin-left: 100px;
+    margin-right: 50px;
 }
-.navLink{
+
+.navLink {
+    width: 400px;
     justify-content: space-between;
-    flex: 1;
 }
 
-
-.signout{
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    flex: 1;
+.signOutSpace {
+    /*this div made so button can auto shift to the right when browser is minimized  */
+    margin-left: auto;
+    margin-right: 50px;
 }
-.signOutbtn{
+
+.signOutbtn {
     color: white;
     width: 100px;
-    background-color: rgb(80, 80, 255);
+    background-color: rgb(90,91,109);
     border-radius: 5px;
     padding: 10px;
-    justify-content: flex-end;
 }
 
 
-/* EverythingBox Start */
-.everythingBox{
-    display:flex;
-    justify-content: space-around;
+/* EverythingBox  */
+.everythingBox {
+    display: flex;
+    justify-content: center;
     padding: 10px;
+    gap: 30px;
 }
-.col1{
-    flex:2;
+
+.col1 {
     margin: 50px;
+    width: 600px;
 }
-.col2{
-    flex:1;
-    margin:50px;
+
+.col2 {
+    margin: 50px;
+    width: 260px;
 }
-/* EverythingBox End*/
 
-/* Profilecard Start */
 
-.profileCard{
+/* Profile card */
+.profileCard {
     border: 3px solid grey;
     border-radius: 5px;
     justify-items: center;
-    background-color: azure;
+    background-color: rgb(255,255,255);
     margin-bottom: 50px;
+    width: 600px;
 }
 
 .topBanner {
     height: 100px;
-    background-color: rgb(12, 7, 73);
+    background-color: rgb(251,47,56);
 }
 
 .userName {
     margin-left: 30px;
     font-size: 40px;
 }
-.infoBox{
-    margin-top:60px;
+
+.infoBox {
+    margin-top: 60px;
 }
 
 .location {
@@ -112,6 +118,7 @@ h1{
 }
 
 .title {
+    margin: 5px;
     margin-left: 30px;
 }
 
@@ -124,109 +131,129 @@ ul {
 }
 
 li {
-    margin: 2px;
-    padding: 3px;
+    padding: 5px;
     border-right: 2px solid black;
 }
 
-.edit{
+.edit {
+    margin: 2px;
     margin-left: 30px;
     margin-bottom: 15px;
 }
-/* Profile Card End */
 
-/* Education Start */
-.education{
+
+/* Education Card */
+.education {
+    width: 600px;
     border: 3px solid grey;
     border-radius: 5px;
     background-color: aliceblue;
-    
-    
+
+
 }
-.eduBanner{
-    background-color: rgb(31, 31, 31);
+
+.eduBanner {
+    background-color: rgb(44,82,179);
     color: white;
     font-size: 30px;
-    padding:20px;
-    
+    padding: 20px;
+
 }
-.bannerText{
+
+.bannerText {
     font-size: 30px;
 }
 
 
-.eduText{
+.eduText {
     margin-left: 30px;
     font-size: 25px;
 }
 
-#eduText-Grey{
+#eduText-Grey {
     color: grey;
 }
-/* Education End */
 
-/* Connection Request Start */
-.conRequest{
+
+/* friend Request*/
+.conRequest {
     border: 3px solid grey;
     margin-bottom: 50px;
+    width: 260px;
+
 }
 
-.conRequestBanner{
+.conRequestBanner {
     display: flex;
-    width: inherit;
-    background-color: rgb(31, 31, 31);
+    width: 250px;
+    background-color: rgb(90,91,109);
     color: white;
     height: 50px;
     padding-left: 10px;
     align-items: center;
 }
-.conRequestCount{
+
+.conRequestCount {
     background-color: grey;
     padding: 5px;
     border-radius: 30%;
     margin-right: 5px;
 }
 
-.conRequestInfo{
-margin-bottom: 50px;
-
-}
-.friend div{
-    margin: 2px;
+.requestNamePhoto {
     display: flex;
-    gap: 6px;
     align-items: center;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
 }
-.accept{
+
+.friend {
+    display: flex;
+    align-items: center;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.accept {
     border-color: goldenrod;
-    background-color: rgb(18, 77, 0);
+    background-color: rgb(255,248,103);
+    color: black;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 2px black;
+}
+
+.reject {
+    border-color: silver;
+    background-color: black;
     color: white;
     font-size: 20px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    box-shadow: 1px 5px 5px black;
-
+    box-shadow: 3px 5px 2px black;
 }
-.reject{
-    border-color: black;
-    background-color: rgb(170, 0, 0);
-    color: pink;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    box-shadow: 1px 5px 5px black;
-}
-/* Connection Request End */
 
-/* Your Connections Start */
-.yourCon{
+
+/* Your Connections*/
+.yourCon {
+    width: 310px;
     border: 3px solid gray;
     border-radius: 5px;
+    width: 260px;
 }
-.friendCount{
+
+.friendCount {
     height: 10px;
     width: 40px;
     padding: 5px;
@@ -234,18 +261,19 @@ margin-bottom: 50px;
     background-color: grey;
     padding-bottom: 10px;
     border-radius: 50px;
+    margin-right: 5px;
 }
-.yourConBanner{
+
+.yourConBanner {
     display: flex;
-    width: inherit;
-    background-color: rgb(31, 31, 31);
+    width: 250px;
+    background-color: rgb(90,91,109);
     color: white;
     height: 50px;
     align-items: center;
-    padding: 5px;
-}
-.youConInfo{
-    align-items: center;
+    padding-left: 10px;
 }
 
-/* Your Connections End */
+.youConInfo {
+    align-items: center;
+}

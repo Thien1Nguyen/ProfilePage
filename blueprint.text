@@ -1,0 +1,63 @@
+NAVBAR
+        logo
+        navInfo
+            home, myProfile, findConnections
+        signOut
+
+MASTERCONTAINER
+        
+        col1
+            profileCardContainer
+                profileCardBanner
+                    userPhoto
+                userName
+                userLocaction
+                userInfo
+                    userRole
+                        role
+                    userTitle
+                    editProfile
+            
+            educationContainer
+                eduBanner
+                eduInfoContainer
+                    edunInfo
+
+        col2
+            connectionRequestContainer
+                cRBanner
+                    cRCount
+                    cRText
+                cRInfoContainer
+                    request1
+                        photoName
+                            miniPhoto
+                            name
+                        yesNoButton
+                            accept
+                            reject
+                    request2
+                        photoName
+                            miniPhoto
+                            name
+                        yesNoButton
+                            accept
+                            reject
+            yourConnectionContainer
+                yCBanner
+                    yCCount
+                    yCText
+                yCInfoContainer
+                    connection1
+                        miniPhoto
+                        name
+                    connection2
+                        miniPhoto
+                        name
+                    connection3
+                        miniPhoto
+                        name
+                    connection4
+                        miniPhoto
+                        name
+                    viewMore
